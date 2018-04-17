@@ -11,3 +11,6 @@ Files:
 2. Business_Licenses.csv
 3. BusinessViability.py
 4. business_viability.csv : final file
+
+
+Run the python file, using the food inspection and business csv files and get the final viability file.
