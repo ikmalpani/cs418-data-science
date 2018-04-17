@@ -1,0 +1,384 @@
+"1333 W Flournoy St, Chicago Illinois 60607",ARSON,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",ASSAULT,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",BATTERY,K Nearest Neighbour,0.4
+"1333 W Flournoy St, Chicago Illinois 60607",BURGLARY,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CONCEALED CARRY LICENSE VIOLATION,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CRIM SEXUAL ASSAULT,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CRIMINAL DAMAGE,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CRIMINAL TRESPASS,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",DECEPTIVE PRACTICE,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",GAMBLING,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",HOMICIDE,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",HUMAN TRAFFICKING,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",INTERFERENCE WITH PUBLIC OFFICER,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",INTIMIDATION,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",KIDNAPPING,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",LIQUOR LAW VIOLATION,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",MOTOR VEHICLE THEFT,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",NARCOTICS,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",NON - CRIMINAL,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",NON-CRIMINAL,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OBSCENITY,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OFFENSE INVOLVING CHILDREN,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OTHER NARCOTIC VIOLATION,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OTHER OFFENSE,K Nearest Neighbour,0.6
+"1333 W Flournoy St, Chicago Illinois 60607",PROSTITUTION,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",PUBLIC INDECENCY,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",PUBLIC PEACE VIOLATION,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",ROBBERY,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",SEX OFFENSE,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",STALKING,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",THEFT,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",WEAPONS VIOLATION,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",ARSON,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",ASSAULT,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",BATTERY,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",BURGLARY,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CONCEALED CARRY LICENSE VIOLATION,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CRIM SEXUAL ASSAULT,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CRIMINAL DAMAGE,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CRIMINAL TRESPASS,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",DECEPTIVE PRACTICE,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",GAMBLING,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",HOMICIDE,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",HUMAN TRAFFICKING,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",INTERFERENCE WITH PUBLIC OFFICER,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",INTIMIDATION,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",KIDNAPPING,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",LIQUOR LAW VIOLATION,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",MOTOR VEHICLE THEFT,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",NARCOTICS,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",NON - CRIMINAL,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",NON-CRIMINAL,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OBSCENITY,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OFFENSE INVOLVING CHILDREN,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OTHER NARCOTIC VIOLATION,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OTHER OFFENSE,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",PROSTITUTION,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",PUBLIC INDECENCY,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",PUBLIC PEACE VIOLATION,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",ROBBERY,Decision Tree,1.0
+"1333 W Flournoy St, Chicago Illinois 60607",SEX OFFENSE,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",STALKING,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",THEFT,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",WEAPONS VIOLATION,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",ARSON,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",ASSAULT,Random Forest,0.1
+"1333 W Flournoy St, Chicago Illinois 60607",BATTERY,Random Forest,0.1
+"1333 W Flournoy St, Chicago Illinois 60607",BURGLARY,Random Forest,0.2
+"1333 W Flournoy St, Chicago Illinois 60607",CONCEALED CARRY LICENSE VIOLATION,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CRIM SEXUAL ASSAULT,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CRIMINAL DAMAGE,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CRIMINAL TRESPASS,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",DECEPTIVE PRACTICE,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",GAMBLING,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",HOMICIDE,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",HUMAN TRAFFICKING,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",INTERFERENCE WITH PUBLIC OFFICER,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",INTIMIDATION,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",KIDNAPPING,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",LIQUOR LAW VIOLATION,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",MOTOR VEHICLE THEFT,Random Forest,0.1
+"1333 W Flournoy St, Chicago Illinois 60607",NARCOTICS,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",NON - CRIMINAL,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",NON-CRIMINAL,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OBSCENITY,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OFFENSE INVOLVING CHILDREN,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OTHER NARCOTIC VIOLATION,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OTHER OFFENSE,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",PROSTITUTION,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",PUBLIC INDECENCY,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",PUBLIC PEACE VIOLATION,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",ROBBERY,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",SEX OFFENSE,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",STALKING,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",THEFT,Random Forest,0.5
+"1333 W Flournoy St, Chicago Illinois 60607",WEAPONS VIOLATION,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",ARSON,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",ASSAULT,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",BATTERY,K Nearest Neighbour,0.4
+"1333 W Flournoy St, Chicago Illinois 60607",BURGLARY,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CONCEALED CARRY LICENSE VIOLATION,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CRIM SEXUAL ASSAULT,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CRIMINAL DAMAGE,K Nearest Neighbour,0.6
+"1333 W Flournoy St, Chicago Illinois 60607",CRIMINAL TRESPASS,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",DECEPTIVE PRACTICE,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",GAMBLING,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",HOMICIDE,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",HUMAN TRAFFICKING,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",INTERFERENCE WITH PUBLIC OFFICER,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",INTIMIDATION,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",KIDNAPPING,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",LIQUOR LAW VIOLATION,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",MOTOR VEHICLE THEFT,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",NARCOTICS,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",NON - CRIMINAL,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",NON-CRIMINAL,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OBSCENITY,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OFFENSE INVOLVING CHILDREN,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OTHER NARCOTIC VIOLATION,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OTHER OFFENSE,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",PROSTITUTION,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",PUBLIC INDECENCY,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",PUBLIC PEACE VIOLATION,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",ROBBERY,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",SEX OFFENSE,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",STALKING,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",THEFT,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",WEAPONS VIOLATION,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",ARSON,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",ASSAULT,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",BATTERY,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",BURGLARY,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CONCEALED CARRY LICENSE VIOLATION,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CRIM SEXUAL ASSAULT,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CRIMINAL DAMAGE,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CRIMINAL TRESPASS,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",DECEPTIVE PRACTICE,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",GAMBLING,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",HOMICIDE,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",HUMAN TRAFFICKING,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",INTERFERENCE WITH PUBLIC OFFICER,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",INTIMIDATION,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",KIDNAPPING,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",LIQUOR LAW VIOLATION,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",MOTOR VEHICLE THEFT,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",NARCOTICS,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",NON - CRIMINAL,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",NON-CRIMINAL,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OBSCENITY,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OFFENSE INVOLVING CHILDREN,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OTHER NARCOTIC VIOLATION,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OTHER OFFENSE,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",PROSTITUTION,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",PUBLIC INDECENCY,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",PUBLIC PEACE VIOLATION,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",ROBBERY,Decision Tree,1.0
+"1333 W Flournoy St, Chicago Illinois 60607",SEX OFFENSE,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",STALKING,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",THEFT,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",WEAPONS VIOLATION,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",ARSON,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",ASSAULT,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",BATTERY,Random Forest,0.1
+"1333 W Flournoy St, Chicago Illinois 60607",BURGLARY,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CONCEALED CARRY LICENSE VIOLATION,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CRIM SEXUAL ASSAULT,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CRIMINAL DAMAGE,Random Forest,0.2
+"1333 W Flournoy St, Chicago Illinois 60607",CRIMINAL TRESPASS,Random Forest,0.1
+"1333 W Flournoy St, Chicago Illinois 60607",DECEPTIVE PRACTICE,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",GAMBLING,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",HOMICIDE,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",HUMAN TRAFFICKING,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",INTERFERENCE WITH PUBLIC OFFICER,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",INTIMIDATION,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",KIDNAPPING,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",LIQUOR LAW VIOLATION,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",MOTOR VEHICLE THEFT,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",NARCOTICS,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",NON - CRIMINAL,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",NON-CRIMINAL,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OBSCENITY,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OFFENSE INVOLVING CHILDREN,Random Forest,0.1
+"1333 W Flournoy St, Chicago Illinois 60607",OTHER NARCOTIC VIOLATION,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OTHER OFFENSE,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",PROSTITUTION,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",PUBLIC INDECENCY,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",PUBLIC PEACE VIOLATION,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",ROBBERY,Random Forest,0.2
+"1333 W Flournoy St, Chicago Illinois 60607",SEX OFFENSE,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",STALKING,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",THEFT,Random Forest,0.3
+"1333 W Flournoy St, Chicago Illinois 60607",WEAPONS VIOLATION,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",ARSON,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",ASSAULT,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",BATTERY,K Nearest Neighbour,0.4
+"1333 W Flournoy St, Chicago Illinois 60607",BURGLARY,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CONCEALED CARRY LICENSE VIOLATION,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CRIM SEXUAL ASSAULT,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CRIMINAL DAMAGE,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CRIMINAL TRESPASS,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",DECEPTIVE PRACTICE,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",GAMBLING,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",HOMICIDE,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",HUMAN TRAFFICKING,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",INTERFERENCE WITH PUBLIC OFFICER,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",INTIMIDATION,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",KIDNAPPING,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",LIQUOR LAW VIOLATION,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",MOTOR VEHICLE THEFT,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",NARCOTICS,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",NON - CRIMINAL,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",NON-CRIMINAL,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OBSCENITY,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OFFENSE INVOLVING CHILDREN,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OTHER NARCOTIC VIOLATION,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OTHER OFFENSE,K Nearest Neighbour,0.6
+"1333 W Flournoy St, Chicago Illinois 60607",PROSTITUTION,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",PUBLIC INDECENCY,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",PUBLIC PEACE VIOLATION,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",ROBBERY,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",SEX OFFENSE,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",STALKING,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",THEFT,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",WEAPONS VIOLATION,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",ARSON,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",ASSAULT,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",BATTERY,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",BURGLARY,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CONCEALED CARRY LICENSE VIOLATION,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CRIM SEXUAL ASSAULT,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CRIMINAL DAMAGE,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CRIMINAL TRESPASS,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",DECEPTIVE PRACTICE,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",GAMBLING,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",HOMICIDE,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",HUMAN TRAFFICKING,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",INTERFERENCE WITH PUBLIC OFFICER,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",INTIMIDATION,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",KIDNAPPING,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",LIQUOR LAW VIOLATION,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",MOTOR VEHICLE THEFT,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",NARCOTICS,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",NON - CRIMINAL,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",NON-CRIMINAL,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OBSCENITY,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OFFENSE INVOLVING CHILDREN,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OTHER NARCOTIC VIOLATION,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OTHER OFFENSE,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",PROSTITUTION,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",PUBLIC INDECENCY,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",PUBLIC PEACE VIOLATION,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",ROBBERY,Decision Tree,1.0
+"1333 W Flournoy St, Chicago Illinois 60607",SEX OFFENSE,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",STALKING,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",THEFT,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",WEAPONS VIOLATION,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",ARSON,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",ASSAULT,Random Forest,0.1
+"1333 W Flournoy St, Chicago Illinois 60607",BATTERY,Random Forest,0.1
+"1333 W Flournoy St, Chicago Illinois 60607",BURGLARY,Random Forest,0.2
+"1333 W Flournoy St, Chicago Illinois 60607",CONCEALED CARRY LICENSE VIOLATION,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CRIM SEXUAL ASSAULT,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CRIMINAL DAMAGE,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CRIMINAL TRESPASS,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",DECEPTIVE PRACTICE,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",GAMBLING,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",HOMICIDE,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",HUMAN TRAFFICKING,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",INTERFERENCE WITH PUBLIC OFFICER,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",INTIMIDATION,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",KIDNAPPING,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",LIQUOR LAW VIOLATION,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",MOTOR VEHICLE THEFT,Random Forest,0.1
+"1333 W Flournoy St, Chicago Illinois 60607",NARCOTICS,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",NON - CRIMINAL,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",NON-CRIMINAL,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OBSCENITY,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OFFENSE INVOLVING CHILDREN,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OTHER NARCOTIC VIOLATION,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OTHER OFFENSE,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",PROSTITUTION,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",PUBLIC INDECENCY,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",PUBLIC PEACE VIOLATION,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",ROBBERY,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",SEX OFFENSE,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",STALKING,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",THEFT,Random Forest,0.5
+"1333 W Flournoy St, Chicago Illinois 60607",WEAPONS VIOLATION,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",ARSON,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",ASSAULT,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",BATTERY,K Nearest Neighbour,0.4
+"1333 W Flournoy St, Chicago Illinois 60607",BURGLARY,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CONCEALED CARRY LICENSE VIOLATION,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CRIM SEXUAL ASSAULT,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CRIMINAL DAMAGE,K Nearest Neighbour,0.6
+"1333 W Flournoy St, Chicago Illinois 60607",CRIMINAL TRESPASS,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",DECEPTIVE PRACTICE,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",GAMBLING,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",HOMICIDE,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",HUMAN TRAFFICKING,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",INTERFERENCE WITH PUBLIC OFFICER,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",INTIMIDATION,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",KIDNAPPING,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",LIQUOR LAW VIOLATION,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",MOTOR VEHICLE THEFT,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",NARCOTICS,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",NON - CRIMINAL,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",NON-CRIMINAL,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OBSCENITY,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OFFENSE INVOLVING CHILDREN,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OTHER NARCOTIC VIOLATION,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OTHER OFFENSE,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",PROSTITUTION,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",PUBLIC INDECENCY,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",PUBLIC PEACE VIOLATION,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",ROBBERY,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",SEX OFFENSE,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",STALKING,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",THEFT,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",WEAPONS VIOLATION,K Nearest Neighbour,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",ARSON,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",ASSAULT,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",BATTERY,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",BURGLARY,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CONCEALED CARRY LICENSE VIOLATION,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CRIM SEXUAL ASSAULT,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CRIMINAL DAMAGE,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CRIMINAL TRESPASS,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",DECEPTIVE PRACTICE,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",GAMBLING,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",HOMICIDE,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",HUMAN TRAFFICKING,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",INTERFERENCE WITH PUBLIC OFFICER,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",INTIMIDATION,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",KIDNAPPING,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",LIQUOR LAW VIOLATION,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",MOTOR VEHICLE THEFT,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",NARCOTICS,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",NON - CRIMINAL,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",NON-CRIMINAL,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OBSCENITY,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OFFENSE INVOLVING CHILDREN,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OTHER NARCOTIC VIOLATION,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OTHER OFFENSE,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",PROSTITUTION,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",PUBLIC INDECENCY,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",PUBLIC PEACE VIOLATION,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",ROBBERY,Decision Tree,1.0
+"1333 W Flournoy St, Chicago Illinois 60607",SEX OFFENSE,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",STALKING,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",THEFT,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",WEAPONS VIOLATION,Decision Tree,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",ARSON,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",ASSAULT,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",BATTERY,Random Forest,0.1
+"1333 W Flournoy St, Chicago Illinois 60607",BURGLARY,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CONCEALED CARRY LICENSE VIOLATION,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CRIM SEXUAL ASSAULT,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",CRIMINAL DAMAGE,Random Forest,0.2
+"1333 W Flournoy St, Chicago Illinois 60607",CRIMINAL TRESPASS,Random Forest,0.1
+"1333 W Flournoy St, Chicago Illinois 60607",DECEPTIVE PRACTICE,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",GAMBLING,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",HOMICIDE,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",HUMAN TRAFFICKING,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",INTERFERENCE WITH PUBLIC OFFICER,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",INTIMIDATION,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",KIDNAPPING,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",LIQUOR LAW VIOLATION,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",MOTOR VEHICLE THEFT,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",NARCOTICS,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",NON - CRIMINAL,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",NON-CRIMINAL,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OBSCENITY,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OFFENSE INVOLVING CHILDREN,Random Forest,0.1
+"1333 W Flournoy St, Chicago Illinois 60607",OTHER NARCOTIC VIOLATION,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",OTHER OFFENSE,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",PROSTITUTION,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",PUBLIC INDECENCY,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",PUBLIC PEACE VIOLATION,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",ROBBERY,Random Forest,0.2
+"1333 W Flournoy St, Chicago Illinois 60607",SEX OFFENSE,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",STALKING,Random Forest,0.0
+"1333 W Flournoy St, Chicago Illinois 60607",THEFT,Random Forest,0.3
+"1333 W Flournoy St, Chicago Illinois 60607",WEAPONS VIOLATION,Random Forest,0.0

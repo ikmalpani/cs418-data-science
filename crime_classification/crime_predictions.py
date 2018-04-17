@@ -82,22 +82,24 @@ crimeff['Latitude'] = normalize(crimeff.Latitude)
 crimeff['Longitude'] = normalize(crimeff.Longitude)
 
 
-# In[8]:
+# In[9]:
 
 crimeff.drop(['Date','Description','Arrest', 'Domestic', 'Beat', 'District', 'Ward', 'Community Area','Zipcode'],inplace=True,axis=1)
 
-
-# In[9]:
-
-y=crimeff[crimeff.columns[1]]
+crimeff.drop(['SEASON', 'session', 'day_of_week'],inplace=True,axis=1)
 
 
 # In[10]:
 
-crimeff.pop('Primary Type')
+y=crimeff[crimeff.columns[1]]
 
 
 # In[11]:
+
+crimeff.pop('Primary Type')
+
+
+# In[12]:
 
 crimeff.drop(['Location Description'], inplace=True,axis=1)
 
@@ -106,19 +108,19 @@ import copy
 features=copy.deepcopy(crimeff)
 
 
-# In[12]:
+# In[13]:
 
 X_train, X_test, y_train, y_test = train_test_split(features, y, test_size = 0.001, random_state = 0)
 
 
-# In[13]:
+# In[15]:
 
 X_train.drop(['Block'], inplace=True,axis=1)
 test_addresses = X_test['Block']
 X_test.drop(['Block'], inplace=True,axis=1)
 
 
-# In[14]:
+# In[16]:
 
 ylabel=LabelEncoder()
 ylabel.fit(y_train)
@@ -129,29 +131,35 @@ y_test= ylabel.transform(y_test)
 # X_train['Block'] = enc91.fit_transform(X_train['Block'].astype(str))
 # X_test['Block'] = enc91.transform(X_test['Block'].astype(str))
 
-enc931= LabelEncoder()
-X_train['SEASON'] = enc931.fit_transform(X_train['SEASON'].astype(str))
-X_test['SEASON'] = enc931.transform(X_test['SEASON'].astype(str))
+# enc931= LabelEncoder()
+# X_train['SEASON'] = enc931.fit_transform(X_train['SEASON'].astype(str))
+# X_test['SEASON'] = enc931.transform(X_test['SEASON'].astype(str))
 
 #enc922= LabelEncoder()
 #X_train['Location Description'] = enc922.fit_transform(X_train['Location Description'].astype(str))
 #X_test['Location Description'] = enc922.transform(X_test['Location Description'].astype(str))
 
-enc933= LabelEncoder()
-X_train['session'] = enc933.fit_transform(X_train['session'].astype(str))
-X_test['session'] = enc933.transform(X_test['session'].astype(str))
+# enc933= LabelEncoder()
+# X_train['session'] = enc933.fit_transform(X_train['session'].astype(str))
+# X_test['session'] = enc933.transform(X_test['session'].astype(str))
 
-enc934= LabelEncoder()
-X_train['day_of_week'] = enc934.fit_transform(X_train['day_of_week'].astype(str))
-X_test['day_of_week'] = enc934.transform(X_test['day_of_week'].astype(str))
+#enc934= LabelEncoder()
+#X_train['day_of_week'] = enc934.fit_transform(X_train['day_of_week'].astype(str))
+#X_test['day_of_week'] = enc934.transform(X_test['day_of_week'].astype(str))
 
 
-# In[15]:
+# In[19]:
+
+import pickle
 
 label_mapping = dict(zip(ylabel.classes_, ylabel.transform(ylabel.classes_)))
 
+fileObject = open('models/label_mapping','wb')
+pickle.dump(label_mapping, fileObject) 
+fileObject.close()
 
-# In[16]:
+
+# In[21]:
 
 clf = KNeighborsClassifier()
 clf.fit(X_train, y_train)
@@ -181,9 +189,13 @@ for each in sample:
         adder.append(preds[i][j])
         final_knn.append(adder)
     i += 1
+    
+fileObject = open('models/knn','wb')
+pickle.dump(clf, fileObject) 
+fileObject.close()
 
 
-# In[17]:
+# In[22]:
 
 clf = ensemble.RandomForestClassifier()
 clf.fit(X_train, y_train)
@@ -214,8 +226,12 @@ for each in sample:
         final_rforest.append(adder)
     i += 1
 
+fileObject = open('models/random_forest','wb')
+pickle.dump(clf, fileObject) 
+fileObject.close()
 
-# In[18]:
+
+# In[23]:
 
 clf = tree.DecisionTreeClassifier()
 clf.fit(X_train, y_train)
@@ -246,8 +262,12 @@ for each in sample:
         final_dtree.append(adder)
     i += 1
 
+fileObject = open('models/decision_tree','wb')
+pickle.dump(clf, fileObject) 
+fileObject.close()
 
-# In[19]:
+
+# In[24]:
 
 with open("test_op_crime.csv", "w", newline = '') as f:
     writer = csv.writer(f)
