@@ -24,7 +24,7 @@ On the command line/terminal run:
 
 1. python yelp_review_prediction_clean.py -> Reading the csv and cleaning the data
 
-2. python yelp_review_prediction_data.py -> Cleaning the data from Step 1. Make sure you have the pickels\X_train created. If not download it from: 
+2. python yelp_review_prediction_data.py -> Cleaning the data from Step 1. Make sure you have the pickels\X_train created. If not download it from: https://drive.google.com/file/d/1-mh0JxLTLxW1z66VviiV84QbRXdsLtr_/view?usp=sharing
 
 3. python yelp_review_prediction_models.py -> ML models using a basic test train split
 
