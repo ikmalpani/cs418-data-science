@@ -1,0 +1,619 @@
+------------------------------------------------------------------------------------------
+NO SMOTE:
+
+BernoulliNB(alpha=1.0, binarize=0.0, class_prior=None, fit_prior=True)
+Overall Acurracy:  0.4929605792437651 
+
+Precision of 1 class: 0.420775
+Recall of 1 class: 0.612821
+F1-Score of 1 class: 0.498956 
+
+Precision of 2 class: 0.385514
+Recall of 2 class: 0.301095
+F1-Score of 2 class: 0.338115 
+
+Precision of 3 class: 0.403756
+Recall of 3 class: 0.371892
+F1-Score of 3 class: 0.387169 
+
+Precision of 4 class: 0.530128
+Recall of 4 class: 0.488194
+F1-Score of 4 class: 0.508297 
+
+Precision of 5 class: 0.560102
+Recall of 5 class: 0.619081
+F1-Score of 5 class: 0.588117 
+
+SVC(C=0.81, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=0.58, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Overall Acurracy:  0.5233306516492358 
+
+Precision of 1 class: 0.656604
+Recall of 1 class: 0.446154
+F1-Score of 1 class: 0.531298 
+
+Precision of 2 class: 0.523585
+Recall of 2 class: 0.202555
+F1-Score of 2 class: 0.292105 
+
+Precision of 3 class: 0.429048
+Recall of 3 class: 0.277838
+F1-Score of 3 class: 0.337270 
+
+Precision of 4 class: 0.479118
+Recall of 4 class: 0.731405
+F1-Score of 4 class: 0.578972 
+
+Precision of 5 class: 0.626718
+Recall of 5 class: 0.580212
+F1-Score of 5 class: 0.602569 
+
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=0,
+            splitter='best')
+Overall Acurracy:  0.3805309734513274 
+
+Precision of 1 class: 0.341772
+Recall of 1 class: 0.276923
+F1-Score of 1 class: 0.305949 
+
+Precision of 2 class: 0.260664
+Recall of 2 class: 0.200730
+F1-Score of 2 class: 0.226804 
+
+Precision of 3 class: 0.267045
+Recall of 3 class: 0.254054
+F1-Score of 3 class: 0.260388 
+
+Precision of 4 class: 0.406971
+Recall of 4 class: 0.448052
+F1-Score of 4 class: 0.426524 
+
+Precision of 5 class: 0.456682
+Recall of 5 class: 0.480565
+F1-Score of 5 class: 0.468320 
+
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='entropy',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=10,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)
+Overall Acurracy:  0.43101367658889783 
+
+Precision of 1 class: 0.490909
+Recall of 1 class: 0.276923
+F1-Score of 1 class: 0.354098 
+
+Precision of 2 class: 0.329412
+Recall of 2 class: 0.153285
+F1-Score of 2 class: 0.209215 
+
+Precision of 3 class: 0.331915
+Recall of 3 class: 0.252973
+F1-Score of 3 class: 0.287117 
+
+Precision of 4 class: 0.427933
+Recall of 4 class: 0.622196
+F1-Score of 4 class: 0.507096 
+
+Precision of 5 class: 0.498871
+Recall of 5 class: 0.468551
+F1-Score of 5 class: 0.483236 
+
+LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+Overall Acurracy:  0.5152855993563958 
+
+Precision of 1 class: 0.640569
+Recall of 1 class: 0.461538
+F1-Score of 1 class: 0.536513 
+
+Precision of 2 class: 0.491304
+Recall of 2 class: 0.206204
+F1-Score of 2 class: 0.290488 
+
+Precision of 3 class: 0.408633
+Recall of 3 class: 0.307027
+F1-Score of 3 class: 0.350617 
+
+Precision of 4 class: 0.487654
+Recall of 4 class: 0.652893
+F1-Score of 4 class: 0.558304 
+
+Precision of 5 class: 0.586782
+Recall of 5 class: 0.621201
+F1-Score of 5 class: 0.603502 
+
+SGDClassifier(alpha=0.0001, average=False, class_weight=None, epsilon=0.1,
+       eta0=0.0, fit_intercept=True, l1_ratio=0.15,
+       learning_rate='optimal', loss='hinge', max_iter=None, n_iter=None,
+       n_jobs=1, penalty='l2', power_t=0.5, random_state=None,
+       shuffle=True, tol=None, verbose=0, warm_start=False)
+Overall Acurracy:  0.5070394207562349 
+
+Precision of 1 class: 0.517778
+Recall of 1 class: 0.597436
+F1-Score of 1 class: 0.554762 
+
+Precision of 2 class: 0.432203
+Recall of 2 class: 0.186131
+F1-Score of 2 class: 0.260204 
+
+Precision of 3 class: 0.420074
+Recall of 3 class: 0.244324
+F1-Score of 3 class: 0.308954 
+
+Precision of 4 class: 0.487132
+Recall of 4 class: 0.625738
+F1-Score of 4 class: 0.547804 
+
+Precision of 5 class: 0.572519
+Recall of 5 class: 0.636042
+F1-Score of 5 class: 0.602611 
+
+GradientBoostingClassifier(criterion='friedman_mse', init=None,
+              learning_rate=0.1, loss='deviance', max_depth=3,
+              max_features=None, max_leaf_nodes=None,
+              min_impurity_decrease=0.0, min_impurity_split=None,
+              min_samples_leaf=1, min_samples_split=2,
+              min_weight_fraction_leaf=0.0, n_estimators=100,
+              presort='auto', random_state=None, subsample=1.0, verbose=0,
+              warm_start=False)
+Overall Acurracy:  0.4652051488334674 
+
+Precision of 1 class: 0.596939
+Recall of 1 class: 0.300000
+F1-Score of 1 class: 0.399317 
+
+Precision of 2 class: 0.470199
+Recall of 2 class: 0.129562
+F1-Score of 2 class: 0.203147 
+
+Precision of 3 class: 0.424431
+Recall of 3 class: 0.221622
+F1-Score of 3 class: 0.291193 
+
+Precision of 4 class: 0.420300
+Recall of 4 class: 0.711334
+F1-Score of 4 class: 0.528393 
+
+Precision of 5 class: 0.560784
+Recall of 5 class: 0.505300
+F1-Score of 5 class: 0.531599 
+
+VotingClassifier(estimators=[('bnb', BernoulliNB(alpha=1.0, binarize=0.0, class_prior=None, fit_prior=True)), ('dt', SVC(C=0.81, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=0.58, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  to...='l2', power_t=0.5, random_state=None,
+       shuffle=True, tol=None, verbose=0, warm_start=False))],
+         flatten_transform=None, n_jobs=1, voting='hard', weights=None)
+
+Overall Acurracy:  0.5231295253419147 
+
+Precision of 1 class: 0.579670
+Recall of 1 class: 0.541026
+F1-Score of 1 class: 0.559682 
+
+Precision of 2 class: 0.488372
+Recall of 2 class: 0.229927
+F1-Score of 2 class: 0.312655 
+
+Precision of 3 class: 0.429641
+Recall of 3 class: 0.310270
+F1-Score of 3 class: 0.360326 
+
+Precision of 4 class: 0.492976
+Recall of 4 class: 0.662928
+F1-Score of 4 class: 0.565458 
+
+Precision of 5 class: 0.608262
+Recall of 5 class: 0.603534
+F1-Score of 5 class: 0.605889 
+
+--------------------------------------------------------------------------------------------
+SMOTE:
+
+BernoulliNB(alpha=1.0, binarize=0.0, class_prior=None, fit_prior=True)
+
+Overall Acurracy:  0.4503218020917136 
+
+Precision of 1 class: 0.417040
+Recall of 1 class: 0.476923
+F1-Score of 1 class: 0.444976 
+
+Precision of 2 class: 0.339080
+Recall of 2 class: 0.215328
+F1-Score of 2 class: 0.263393 
+
+Precision of 3 class: 0.323741
+Recall of 3 class: 0.291892
+F1-Score of 3 class: 0.306993 
+
+Precision of 4 class: 0.469438
+Recall of 4 class: 0.453365
+F1-Score of 4 class: 0.461261 
+
+Precision of 5 class: 0.525176
+Recall of 5 class: 0.633922
+F1-Score of 5 class: 0.574448 
+
+SVC(C=0.81, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=0.58, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+
+Overall Acurracy:  0.5287610619469026 
+
+Precision of 1 class: 0.576503
+Recall of 1 class: 0.541026
+F1-Score of 1 class: 0.558201 
+
+Precision of 2 class: 0.415761
+Recall of 2 class: 0.279197
+F1-Score of 2 class: 0.334061 
+
+Precision of 3 class: 0.426772
+Recall of 3 class: 0.292973
+F1-Score of 3 class: 0.347436 
+
+Precision of 4 class: 0.503903
+Recall of 4 class: 0.685950
+F1-Score of 4 class: 0.581000 
+
+Precision of 5 class: 0.641480
+Recall of 5 class: 0.587986
+F1-Score of 5 class: 0.613569 
+
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=0,
+            splitter='best')
+
+Overall Acurracy:  0.3686645213193886 
+
+Precision of 1 class: 0.312796
+Recall of 1 class: 0.338462
+F1-Score of 1 class: 0.325123 
+
+Precision of 2 class: 0.224907
+Recall of 2 class: 0.220803
+F1-Score of 2 class: 0.222836 
+
+Precision of 3 class: 0.259978
+Recall of 3 class: 0.260541
+F1-Score of 3 class: 0.260259 
+
+Precision of 4 class: 0.419504
+Recall of 4 class: 0.429162
+F1-Score of 4 class: 0.424278 
+
+Precision of 5 class: 0.452663
+Recall of 5 class: 0.432509
+F1-Score of 5 class: 0.442356 
+
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='entropy',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=10,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)
+
+Overall Acurracy:  0.41773934030571197 
+
+Precision of 1 class: 0.360000
+Recall of 1 class: 0.415385
+F1-Score of 1 class: 0.385714 
+
+Precision of 2 class: 0.297030
+Recall of 2 class: 0.218978
+F1-Score of 2 class: 0.252101 
+
+Precision of 3 class: 0.306469
+Recall of 3 class: 0.312432
+F1-Score of 3 class: 0.309422 
+
+Precision of 4 class: 0.445415
+Recall of 4 class: 0.481700
+F1-Score of 4 class: 0.462847 
+
+Precision of 5 class: 0.513775
+Recall of 5 class: 0.487633
+F1-Score of 5 class: 0.500363 
+
+LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+
+Overall Acurracy:  0.49617860016090104 
+
+Precision of 1 class: 0.449909
+Recall of 1 class: 0.633333
+F1-Score of 1 class: 0.526092 
+
+Precision of 2 class: 0.317965
+Recall of 2 class: 0.364964
+F1-Score of 2 class: 0.339847 
+
+Precision of 3 class: 0.385177
+Recall of 3 class: 0.398919
+F1-Score of 3 class: 0.391928 
+
+Precision of 4 class: 0.550778
+Recall of 4 class: 0.438607
+F1-Score of 4 class: 0.488334 
+
+Precision of 5 class: 0.610625
+Recall of 5 class: 0.641696
+F1-Score of 5 class: 0.625775 
+
+SGDClassifier(alpha=0.0001, average=False, class_weight=None, epsilon=0.1,
+       eta0=0.0, fit_intercept=True, l1_ratio=0.15,
+       learning_rate='optimal', loss='hinge', max_iter=None, n_iter=None,
+       n_jobs=1, penalty='l2', power_t=0.5, random_state=None,
+       shuffle=True, tol=None, verbose=0, warm_start=False)
+
+Overall Acurracy:  0.48652453740949314 
+
+Precision of 1 class: 0.393007
+Recall of 1 class: 0.720513
+F1-Score of 1 class: 0.508597 
+
+Precision of 2 class: 0.341202
+Recall of 2 class: 0.290146
+F1-Score of 2 class: 0.313609 
+
+Precision of 3 class: 0.376826
+Recall of 3 class: 0.418378
+F1-Score of 3 class: 0.396516 
+
+Precision of 4 class: 0.537097
+Recall of 4 class: 0.393152
+F1-Score of 4 class: 0.453988 
+
+Precision of 5 class: 0.607612
+Recall of 5 class: 0.654417
+F1-Score of 5 class: 0.630146 
+
+GradientBoostingClassifier(criterion='friedman_mse', init=None,
+              learning_rate=0.1, loss='deviance', max_depth=3,
+              max_features=None, max_leaf_nodes=None,
+              min_impurity_decrease=0.0, min_impurity_split=None,
+              min_samples_leaf=1, min_samples_split=2,
+              min_weight_fraction_leaf=0.0, n_estimators=100,
+              presort='auto', random_state=None, subsample=1.0, verbose=0,
+              warm_start=False)
+
+Overall Acurracy:  0.4658085277554304 
+
+Precision of 1 class: 0.457778
+Recall of 1 class: 0.528205
+F1-Score of 1 class: 0.490476 
+
+Precision of 2 class: 0.348148
+Recall of 2 class: 0.257299
+F1-Score of 2 class: 0.295908 
+
+Precision of 3 class: 0.371314
+Recall of 3 class: 0.299459
+F1-Score of 3 class: 0.331538 
+
+Precision of 4 class: 0.485630
+Recall of 4 class: 0.488784
+F1-Score of 4 class: 0.487202 
+
+Precision of 5 class: 0.518607
+Recall of 5 class: 0.610601
+F1-Score of 5 class: 0.560857 
+
+VotingClassifier(estimators=[('bnb', BernoulliNB(alpha=1.0, binarize=0.0, class_prior=None, fit_prior=True)), ('dt', SVC(C=0.81, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=0.58, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  to...='l2', power_t=0.5, random_state=None,
+       shuffle=True, tol=None, verbose=0, warm_start=False))],
+         flatten_transform=None, n_jobs=1, voting='hard', weights=None)
+
+Overall Acurracy:  0.5050281576830249 
+
+Precision of 1 class: 0.431148
+Recall of 1 class: 0.674359
+F1-Score of 1 class: 0.526000 
+
+Precision of 2 class: 0.362319
+Recall of 2 class: 0.319343
+F1-Score of 2 class: 0.339476 
+
+Precision of 3 class: 0.398551
+Recall of 3 class: 0.356757
+F1-Score of 3 class: 0.376497 
+
+Precision of 4 class: 0.521363
+Recall of 4 class: 0.533058
+F1-Score of 4 class: 0.527145 
+
+Precision of 5 class: 0.636846
+Recall of 5 class: 0.593640
+F1-Score of 5 class: 0.614484 
+
+XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+       colsample_bytree=1, gamma=0, learning_rate=0.05, max_delta_step=0,
+       max_depth=3, min_child_weight=1, missing=None, n_estimators=300,
+       n_jobs=1, nthread=None, objective='multi:softprob', random_state=0,
+       reg_alpha=0, reg_lambda=1, scale_pos_weight=1, seed=None,
+       silent=True, subsample=1)
+
+Overall Acurracy:  0.46218825422365245 
+
+Precision of 1 class: 0.440928
+Recall of 1 class: 0.535897
+F1-Score of 1 class: 0.483796 
+
+Precision of 2 class: 0.369509
+Recall of 2 class: 0.260949
+F1-Score of 2 class: 0.305882 
+
+Precision of 3 class: 0.384025
+Recall of 3 class: 0.270270
+F1-Score of 3 class: 0.317259 
+
+Precision of 4 class: 0.469714
+Recall of 4 class: 0.485242
+F1-Score of 4 class: 0.477352 
+
+Precision of 5 class: 0.511111
+Recall of 5 class: 0.617668
+F1-Score of 5 class: 0.559360 
+
+--------------------------------------------------------------------------------------------
+100 FOLD CROSS VALIDATION:
+
+BernoulliNB(alpha=1.0, binarize=0.0, class_prior=None, fit_prior=True)
+
+Overall Acurracy:  0.5618884724702569 
+
+Precision of 1 class: 0.701824
+Recall of 1 class: 0.675650
+F1-Score of 1 class: 0.688488 
+
+Precision of 2 class: 0.664251
+Recall of 2 class: 0.561759
+F1-Score of 2 class: 0.608721 
+
+Precision of 3 class: 0.546256
+Recall of 3 class: 0.503426
+F1-Score of 3 class: 0.523967 
+
+Precision of 4 class: 0.431021
+Recall of 4 class: 0.441683
+F1-Score of 4 class: 0.436287 
+
+Precision of 5 class: 0.526058
+Recall of 5 class: 0.641424
+F1-Score of 5 class: 0.578041 
+
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=0,
+            splitter='best')
+
+Overall Acurracy:  0.5399049224036019 
+
+Precision of 1 class: 0.732823
+Recall of 1 class: 0.756363
+F1-Score of 1 class: 0.744407 
+
+Precision of 2 class: 0.614398
+Recall of 2 class: 0.612925
+F1-Score of 2 class: 0.613661 
+
+Precision of 3 class: 0.478376
+Recall of 3 class: 0.460289
+F1-Score of 3 class: 0.469158 
+
+Precision of 4 class: 0.414806
+Recall of 4 class: 0.414519
+F1-Score of 4 class: 0.414662 
+
+Precision of 5 class: 0.484039
+Recall of 5 class: 0.489011
+F1-Score of 5 class: 0.486512 
+
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='entropy',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=10,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)
+
+Overall Acurracy:  0.6545765525567825 
+
+Precision of 1 class: 0.813611
+Recall of 1 class: 0.903090
+F1-Score of 1 class: 0.856019 
+
+Precision of 2 class: 0.776145
+Recall of 2 class: 0.781213
+F1-Score of 2 class: 0.778671 
+
+Precision of 3 class: 0.633566
+Recall of 3 class: 0.574727
+F1-Score of 3 class: 0.602714 
+
+Precision of 4 class: 0.481050
+Recall of 4 class: 0.506184
+F1-Score of 4 class: 0.493297 
+
+Precision of 5 class: 0.592303
+Recall of 5 class: 0.551481
+F1-Score of 5 class: 0.571163 
+
+LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+
+Overall Acurracy:  0.6586261538848505 
+
+Precision of 1 class: 0.780133
+Recall of 1 class: 0.891520
+F1-Score of 1 class: 0.832116 
+
+Precision of 2 class: 0.709461
+Recall of 2 class: 0.691406
+F1-Score of 2 class: 0.700317 
+
+Precision of 3 class: 0.620219
+Recall of 3 class: 0.575996
+F1-Score of 3 class: 0.597290 
+
+Precision of 4 class: 0.536074
+Recall of 4 class: 0.473240
+F1-Score of 4 class: 0.502701 
+
+Precision of 5 class: 0.639384
+Recall of 5 class: 0.694219
+F1-Score of 5 class: 0.665674 
+
+SGDClassifier(alpha=0.0001, average=False, class_weight=None, epsilon=0.1,
+       eta0=0.0, fit_intercept=True, l1_ratio=0.15,
+       learning_rate='optimal', loss='hinge', max_iter=None, n_iter=None,
+       n_jobs=1, penalty='l2', power_t=0.5, random_state=None,
+       shuffle=True, tol=None, verbose=0, warm_start=False)
+
+Overall Acurracy:  0.6279900394899012 
+
+Precision of 1 class: 0.698639
+Recall of 1 class: 0.901184
+F1-Score of 1 class: 0.787090 
+
+Precision of 2 class: 0.683309
+Recall of 2 class: 0.632778
+F1-Score of 2 class: 0.657074 
+
+Precision of 3 class: 0.614105
+Recall of 3 class: 0.524740
+F1-Score of 3 class: 0.565916 
+
+Precision of 4 class: 0.539981
+Recall of 4 class: 0.385620
+F1-Score of 4 class: 0.449929 
+
+Precision of 5 class: 0.587981
+Recall of 5 class: 0.731605
+F1-Score of 5 class: 0.651977 
+
