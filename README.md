@@ -1,5 +1,7 @@
 Course Projects for CS 418 - Intro to Data Science at UIC taught by Prof. Isabel F. Cruz
 
+Course Projects Link: http://cs418.cs.uic.edu/project.html#tasks
+
 Clone the repository:
 
 git clone https://github.com/ikmalpani/cs418-data-science.git
