@@ -26,3 +26,5 @@ To run multiple addresses together use the same format.
 
 Ex:
 > python multiple_addresses.py "1333 W Flournoy St, Chicago Illinois 60607" 12 22 "Thu" "801 S Morgan St, Chicago Illinois 60607" 17 42 "Sat" "1333 W Flournoy St, Chicago Illinois 60607" 12 22 "Thu" "801 S Morgan St, Chicago Illinois 60607" 17 42 "Sat"
+
+If you run into any trouble(or it takes too long) while running the code, move to the folder notebooks and look at the iPython Notebooks with the results.
