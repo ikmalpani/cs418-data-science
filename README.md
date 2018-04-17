@@ -13,3 +13,7 @@ Move to cs418-data-science/yelp and follow instructions there.
 Query 2:
 
 Move to cs418-data-science/crime_classification and follow instructions there.
+
+Query 8:
+
+Move to cs418-data-science/business_viability and follow.
