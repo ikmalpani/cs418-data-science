@@ -2,9 +2,9 @@ Query:
 What is the viability of a business, i.e., how long is a business active, after a failed food inspection?
 Restaurant Name, Address, Failed inspection on, Alive for x years
 
-The food inspection and Business Licenses Data is taken from the City of Chicago website. It is filtered from 60601-60607
+The food inspection and Business Licenses Data is taken from the City of Chicago website. It is filtered from 60601-60607 and the License Status is filtered to AAC and REV.
 
-The data is combined using the License Number and check after how many years a business becomes inactive.
+The data is combined using the License Number and checked after how many years a business license gets cancelled or revoked.
 
 Files:
 1. Food_inspections.csv
