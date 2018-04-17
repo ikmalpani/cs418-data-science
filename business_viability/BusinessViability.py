@@ -3,13 +3,13 @@ import pandas as pd
 import time
 
 
-food_inspection = pd.read_csv('/Users/yashikagoyal/Desktop/data analysis/Food_Inspections.csv', usecols=['DBA Name','Address','City','State','Zip','Inspection Date','Results','License #'])
+food_inspection = pd.read_csv('Food_Inspections.csv', usecols=['DBA Name','Address','City','State','Zip','Inspection Date','Results','License #'])
 
 
 food_inspection['License #'] = food_inspection['License #'].astype(str)
 
 
-business_licenses = pd.read_csv('/Users/yashikagoyal/Desktop/data analysis/Business_Licenses-2.csv', usecols=['LICENSE STATUS CHANGE DATE','LICENSE NUMBER'])
+business_licenses = pd.read_csv('Business_Licenses-2.csv', usecols=['LICENSE STATUS CHANGE DATE','LICENSE NUMBER'])
 y=0
 
 business_licenses['LICENSE NUMBER'] = business_licenses['LICENSE NUMBER'].astype(str)
@@ -74,12 +74,6 @@ for index, rest in temp.iterrows():
 
         except:
             continue
-
-
-
-#out_of_business = pd.DataFrame(data=out_of_business, columns = ['DBA Name','Address','City','State','Zip','Inspection Date','Results','LICENSE NUMBER'])
-#out_of_business = out_of_business.groupby('LICENSE NUMBER')
-
 
 
 for row in business_viability:
