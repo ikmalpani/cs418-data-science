@@ -14,6 +14,12 @@ Files used: reviews_60601-60606.csv and restaurants_60601-60606.csv as provided 
                          yelp_address_normalized.csv
                 Result: yelp_inspection_name.csv
 5. food_yelp_visualize : The yelp_inspection_name.csv received from the last step is combined with food_address_normalized to get numberOfResults.csv which is the license number of the restaurant, avg_rating, and #pass, #conditional, #fail. 
-        Then the data is visualized. From each restaurants , Result with maximum number is used with the restaurants average rating to get the plot. The plot shows that for all the ratings, the avg. reviw rating of restaurants that passed the inspection is higher than the #Fail. 
-                Csv Used: 
+Then the data is visualized. For each restaurants, maximum from (#pass, #fail, #conditional) is used with the average   rating of that restaurants. 
+The plot shows that for all the ratings, the avg. review rating of restaurants that passed the inspection is higher than the #Fail, #Conditional. 
+                Csv Used: yelp_inspection_name.csv
+                          food_address_normalized
+                Result:   numberOfResults.csv
+                
+6. num_of_results_file.py : In file, numberofResults.csv is refined to create the final csv file
+                        Result : food_results_rating 
                 
