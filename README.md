@@ -6,21 +6,33 @@ Clone the repository:
 
 git clone https://github.com/ikmalpani/cs418-data-science.git
 
+Query 1:
+
+Move to cs418-data-science/Query1 and follow instructions there.
+
 Query 2:
 
 Move to cs418-data-science/crime_classification and follow instructions there.
 
-Query 5,6,7:
+Query 3:
 
-Move to cs418-data-science/yelp and follow instructions there.
+Move to cs418-data-science/Query3 and follow instructions there.
 
 Query 4:
 
 Move to cs418-data-science/inspection_review_rel and follow instructions there.
 
+Query 5,6,7:
+
+Move to cs418-data-science/yelp and follow instructions there.
+
 Query 8:
 
 Move to cs418-data-science/business_viability and follow.
+
+Query 9:
+
+Move to cs418-data-science/Query9 and follow instructions there.
 
 Query 10:
 
