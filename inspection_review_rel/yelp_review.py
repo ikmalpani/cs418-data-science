@@ -3,7 +3,7 @@ import sys
 import pandas as pd
 
 final = []
-with open('/Users/yashikagoyal/Desktop/yelp_data/reviews_60601-60606.csv') as csv_file:
+with open('reviews_60601-60606.csv') as csv_file:
     count = 0
 
     for line in csv.reader(csv_file):
