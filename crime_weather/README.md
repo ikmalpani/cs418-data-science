@@ -4,11 +4,11 @@ Query 10:
 
 2. Download the crimes dataset from: https://drive.google.com/file/d/11psZu0BDaX_7xZnDBb_DW7xsOhUOG_Qi/view?usp=sharing and save it in this directory. (You can also use the file in the crime_classification folder in the root directory)
 
-3. On the command line/terminal run: > python weather_crime_model.py
+3. On the command line/terminal run: python weather_crime_model.py
 
 4. Ensure that the cw_r_forest and cw_label_mapping files has been created in the models folder.
 
-5. On the command line/terminal run: > python weather_crime_model_evaluation.py zipcode
+5. On the command line/terminal run: python weather_crime_model_evaluation.py zipcode
 
 6. Check the results in 'crime_weather.csv'
 
