@@ -1,0 +1,17 @@
+
+Files used: reviews_60601-60606.csv and restaurants_60601-60606.csv as provided for the yelp.
+1. yelp_review.py : Pre-processed the file.
+        Result: rev_60601-07.csv
+2. avg_rev_rating.py : Grouped the rev_60601-07.csv on the restaurant id and calculated the mean for each restaurants. 
+        Result: rev_60601-60606.csv
+3. normalze_address: normalize the addresses of the yelp and food-inspection files.
+                Csv ysed: rev_60601-60606.csv
+                          Food_Inspections_60601_07.csv : Filtered File downloaded from the City of Chicago.
+                Result : food_address_normalized.csv
+                         yelp_address_normalized.csv
+4. foodyelptemp.py : searched the files on the basis of names , and addresses. Changed the name of yelp names, addresses to the equivalent names in food-inspection file so that the two files could be merged on the basis of name and addresses.
+                Csv used: food_address_normalized.csv
+                         yelp_address_normalized.csv
+                Result: yelp_inspection_name.csv
+5. 
+                
