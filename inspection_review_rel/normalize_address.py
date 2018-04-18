@@ -5,7 +5,7 @@ yelp_n = open('yelp_address_normalized.csv' , 'w', newline='')
 writer_yelp = csv.writer(yelp_n)
 
 
-with open('/Users/yashikagoyal/PycharmProjects/yelp_rating_food_inspection/rev_60601-60606.csv') as csv_file:
+with open('rev_60601-60606.csv') as csv_file:
     for line in csv.reader(csv_file):
         address = line[7].split("(")[0]
         address = address.split("Chicago")[0]
@@ -32,7 +32,7 @@ food_n = open('food_address_normalized.csv' , 'w', newline='')
 writer_food = csv.writer(food_n)
 
 food_normalized = []
-with open('/Users/yashikagoyal/Desktop/data analysis/Food_Inspections_60601_07.csv') as food_file:
+with open('Food_Inspections_60601_07.csv') as food_file:
     for line1 in csv.reader(food_file):
         add = line1[6].split("AVE")[0]
         add = add.split("DR")[0]
