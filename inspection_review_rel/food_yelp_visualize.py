@@ -2,14 +2,14 @@ import pandas as pd
 import csv
 import matplotlib.pyplot as plt
 
-food_inspections = pd.read_csv('/Users/yashikagoyal/PycharmProjects/yelp-business/food_address_normalized.csv', usecols=['AKA Name','DBA Name','Address','City','State','Zip','Inspection Date','Results','License #','Inspection Type'])
+food_inspections = pd.read_csv('food_address_normalized.csv', usecols=['AKA Name','DBA Name','Address','City','State','Zip','Inspection Date','Results','License #','Inspection Type'])
 food_inspections['AKA Name'] = food_inspections['AKA Name'].str.upper()
 food_inspections['DBA Name'] = food_inspections['DBA Name'].str.upper()
 food_inspections = food_inspections.rename(index=str, columns={"License #": "License"})
 food_inspections = food_inspections.rename(index=str, columns={"DBA Name": "Name"})
 
 
-yelp_inspection_name = pd.read_csv('/Users/yashikagoyal/PycharmProjects/yelp-business/yelp_inspection_name.csv')
+yelp_inspection_name = pd.read_csv('yelp_inspection_name.csv')
 
 integrated = pd.merge(food_inspections, yelp_inspection_name, on='License', how='inner')
 number = integrated.groupby(['License'])
