@@ -1,6 +1,6 @@
 // set the map center and zoom level
 var map = L.map( 'map', {
-    center: [41.8781, -87.6298],
+    center: [41.87451215, -87.63986471],
     minZoom: 2,
     zoom: 14
 });
@@ -24,8 +24,6 @@ var markers = $.ajax({
     dataType: 'json'
 }).responseJSON;
 
-// console.log(markers.length)
-
 function getColor(btype){
     switch (btype) {
     case 'restaurant':
@@ -46,6 +44,14 @@ function getOpacity(crimes){
     else if(crimes > 200) return 1;
 }
 
+var lat,lng;
+function getLatitudeLongitude(){
+    lat = this.getLatLng().lat;
+    lng = this.getLatLng().lng;
+
+    drawQ1Chart();
+}
+
 // loop through the data and plot on map
 for ( var i=0; i < markers.length; ++i )
 {
@@ -55,8 +61,66 @@ for ( var i=0; i < markers.length; ++i )
             markers[i]['Business Type'] + '</br>'+
             '<b>Crimes: </b>'+  markers[i]['#Crimes']+ '</br>'+
             '<b>Arrests: </b>'+ markers[i]['#Arrests'] +'</p>')
-        .addTo( map );
+        .addTo( map ).on('click',getLatitudeLongitude);
 }
 
 
-// console.log(test.length);
+var q1Data = $.ajax({
+   async: false,
+   url: 'json/Query1_Results.json',
+   dataType: 'json'
+}).responseJSON;
+
+var newChart;
+var ctx = document.getElementById("q1Chart").getContext("2d");
+
+newChart = new Chart(ctx, {
+    type: "bar",
+    data: {
+        datasets: [{label: 'Click data points on map to display crime distribution'}]
+    }
+});
+
+function drawQ1Chart(){
+    var labels = [], data = [];
+    var title, btype;
+    q1Data.forEach(function(d){
+        if(d['Latitude'] == lat && d['Longitude'] == lng){
+        labels.push(d['Crime Type']);
+        data.push(d['#Crimes']);
+        title = d['Business Name'];
+        btype = d['Business Type'];
+        }
+    });
+
+    var Data = {
+        labels: labels,
+        datasets: [{
+            label: 'Crime distribution within 3 blocks of ' + title,
+            backgroundColor: getColor(btype),
+            data: data
+        }]
+    };
+
+    if(newChart){
+        newChart.destroy();
+    }
+
+    // Instantiate a new chart
+    newChart = new Chart(ctx , {
+        type: "bar",
+        data: Data,
+        options: {
+            scales: {
+                yAxes: [{
+                    ticks: {
+                        beginAtZero: true,
+                        stepSize: 50,
+                        // max: 600
+                    }
+                }]
+            }
+        }
+    });
+}
+

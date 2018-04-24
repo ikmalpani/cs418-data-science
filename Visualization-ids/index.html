@@ -5,7 +5,7 @@
 <meta charset=”utf-8″ />
 
 <meta name=”viewport” content=”width=device-width, initial-scale=1.0″>
-
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
     <script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js'></script>
@@ -15,12 +15,24 @@
 
 <body>
 
-    <div id="map" style="height: 600px; border: 1px solid #AAA;"></div>
+    <h1 id="mainTitle">75&degF with a Chance of Snow</h1>
+    <h3 id="subtitle">Data Science Project Visualizations</h3>
 
-    <!--<canvas id="myLineChart" width="740" height="200"></canvas>-->
+    <hr>
 
+    <div id="wrapper">
+        <div id="map"></div>
+        <div id="chart1">
+            <canvas id="q1Chart" width="100"></canvas>
+        </div>
 
-    <!--<script type='text/javascript' src='json/markers.json'></script>-->
+    </div>
+
+    <hr>
+
+    <h4 id="footer">Team Snowflakes</h4>
+    <p id="members">Yashika | Keshav | Jaspreet Kaur Sohal | Santhosh</p>
+
     <script type='text/javascript' src='js/leaflet-map.js'></script>
 
 </body>

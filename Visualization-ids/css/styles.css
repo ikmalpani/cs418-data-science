@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+#mainTitle, #subtitle{
+    text-align: center;
+}
+
+#mainTitle{
+    margin-bottom: 5px;
+}
+
+#subtitle{
+    margin-top: 0;
+}
+
+#footer{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#members{
+    text-align: center;
+}
+#wrapper{
+    width:100vw;
+    height: 50vh;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "q1Map q1Map q1Chart q1Chart" "q1Map q1Map q1Chart q1Chart";
+}
+
+#map {
+    grid-area: q1Map;
+    /*height: 800px;*/
+    /*width: 700px;*/
+}
+
+#chart1{
+    grid-area: q1Chart;
+    position: relative;
+}
+
+#q1Chart{
+    position: absolute;
+    width: 100vw;
+    height: 80vh;
+}
