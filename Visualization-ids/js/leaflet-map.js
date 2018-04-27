@@ -5,12 +5,6 @@ var map = L.map( 'map', {
     zoom: 14
 });
 
-// set the map tile
-// L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png', {
-//     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
-//     subdomains: 'abcd'
-// }).addTo(map);
-
 L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
     subdomains: 'abcd',
@@ -38,11 +32,11 @@ function getColor(btype){
 
 // needs to be fixed
 function getOpacity(crimes){
-    if(crimes >=1 && crimes <=4) return 0.2;
-    else if(crimes >=5 && crimes <= 8) return 0.4;
-    else if(crimes >= 10 && crimes <= 18) return 0.6;
-    else if(crimes >= 19 && crimes <= 200) return 0.8;
-    else if(crimes > 200) return 1;
+    if(crimes >=1 && crimes <=5) return 0.3;
+    else if(crimes >=6 && crimes <= 30) return 0.5;
+    else if(crimes > 30 && crimes <= 100) return 0.7;
+    else if(crimes > 100 && crimes <= 300) return 0.9;
+    else if(crimes > 300) return 1;
 }
 
 var lat,lng;
@@ -61,7 +55,9 @@ for ( var i=0; i < markers.length; ++i )
             markers[i]['Business Name'] + '</br>'+
             markers[i]['Business Type'] + '</br>'+
             '<b>Crimes: </b>'+  markers[i]['#Crimes']+ '</br>'+
-            '<b>Arrests: </b>'+ markers[i]['#Arrests'] +'</p>')
+            '<b>Arrests: </b>'+ markers[i]['#Arrests'] + '</br>'+
+            '<b>Has Tobacco License: </b>' + markers[i]['Has Tobacco License']+'</br>'+
+            '<b>Has Liquor License: </b>'+ markers[i]['Has Liquor License']+'</p>')
         .addTo( map ).on('click',getLatitudeLongitude);
 }
 
@@ -84,7 +80,7 @@ newChart = new Chart(ctx, {
 
 function drawQ1Chart(){
     var labels = [], data = [];
-    var title, btype;
+    var title, btype = '', barColor = '';
     q1Data.forEach(function(d){
         if(d['Latitude'] == lat && d['Longitude'] == lng){
         labels.push(d['Crime Type']);
@@ -114,10 +110,20 @@ function drawQ1Chart(){
         options: {
             scales: {
                 yAxes: [{
+                    scaleLabel: {
+                        display: true,
+                        labelString: 'Number of Crimes'
+                    },
                     ticks: {
                         beginAtZero: true,
-                        stepSize: 50,
+                        stepSize: 50
                         // max: 600
+                    }
+                }],
+                xAxes: [{
+                    scaleLabel: {
+                        display: true,
+                        labelString: 'Crime Types'
                     }
                 }]
             }

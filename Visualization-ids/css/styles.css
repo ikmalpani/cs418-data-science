@@ -24,12 +24,15 @@
 }
 #wrapper{
     width:100vw;
-    height: 50vh;
+    height: 100vh;
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 20px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: "q1Map q1Map q1Chart q1Chart" "q1Map q1Map q1Chart q1Chart";
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "q1Map q1Map q1Chart q1Chart"
+                        "q1Map q1Map q1Chart q1Chart"
+                        "MapTwo MapTwo q10Chart q10Chart"
+                        "MapTwo MapTwo q10Chart q10Chart";
 }
 
 #map {
@@ -47,4 +50,24 @@
     position: absolute;
     width: 100vw;
     height: 80vh;
+}
+
+#chart2{
+    margin-top: 50px;
+    grid-area: q10Chart;
+    position: relative;
+}
+
+#q10Chart{
+    position: absolute;
+    width: 100vw;
+    height: 80vh;
+}
+
+#mapTwo{
+    grid-area: MapTwo;
+    margin-top: 50px;
+    /*margin-top: 50px;*/
+    /*width: 60vw;*/
+    /*height: 500px;*/
 }

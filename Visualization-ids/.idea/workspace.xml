@@ -17,17 +17,33 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="483">
               <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+=======
+            <state relative-caret-position="435">
+              <caret line="29" column="55" lean-forward="false" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+              <folding />
+>>>>>>> Query10 implemented visualization
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <file leaf-file-name="mapTwo.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/mapTwo.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="390">
               <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+=======
+            <state relative-caret-position="705">
+              <caret line="134" column="28" lean-forward="false" selection-start-line="134" selection-start-column="28" selection-end-line="134" selection-end-column="28" />
+              <folding>
+                <element signature="n#!!block;n#getLiqBiz#0" expanded="false" />
+                <marker date="1524798519724" expanded="true" signature="215:221" ph="©" />
+                <marker date="1524798519724" expanded="true" signature="289:295" ph="©" />
+              </folding>
+>>>>>>> Query10 implemented visualization
             </state>
           </provider>
         </entry>
@@ -35,43 +51,79 @@
       <file leaf-file-name="leaflet-map.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/leaflet-map.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="591">
               <caret line="113" column="18" lean-forward="true" selection-start-line="113" selection-start-column="18" selection-end-line="113" selection-end-column="18" />
               <folding>
                 <element signature="e#0#6#0" expanded="true" />
                 <element signature="e#74#80#1" expanded="true" />
+=======
+            <state relative-caret-position="1125">
+              <caret line="75" column="82" lean-forward="false" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="82" />
+              <folding>
+                <marker date="1524711140004" expanded="true" signature="249:255" ph="©" />
+                <marker date="1524711140004" expanded="true" signature="323:329" ph="©" />
+>>>>>>> Query10 implemented visualization
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Query8_Results.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/json/Query8_Results.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret column="337" selection-start-column="323" selection-end-column="337" />
+=======
+      <file leaf-file-name="dict.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/json/dict.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+>>>>>>> Query10 implemented visualization
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="sentiment.js" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Desktop/sentiment.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1141">
               <caret line="5" selection-end-line="5" />
+=======
+      <file leaf-file-name="censusTracts.geojson" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/json/censusTracts.geojson">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="3" column="172" lean-forward="false" selection-start-line="3" selection-start-column="172" selection-end-line="3" selection-end-column="181" />
+              <folding />
+>>>>>>> Query10 implemented visualization
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="prediction.js" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Downloads/prediction.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1557">
               <caret line="92" column="30" lean-forward="true" selection-start-line="92" selection-start-column="30" selection-end-line="92" selection-end-column="30" />
+=======
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="55" column="21" lean-forward="false" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+              <folding />
+>>>>>>> Query10 implemented visualization
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="query8.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/query8.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -86,14 +138,28 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
+=======
+>>>>>>> Query10 implemented visualization
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Has Liquor License</find>
       <find>Crime Type</find>
       <find>CrimeType</find>
+<<<<<<< HEAD
       <find>2018</find>
+=======
+      <find>console.log</find>
+      <find>getColor</find>
+>>>>>>> Query10 implemented visualization
     </findStrings>
     <replaceStrings>
       <replace>BusinessType</replace>
@@ -111,12 +177,22 @@
         <option value="$PROJECT_DIR$/maps/markers.json" />
         <option value="$PROJECT_DIR$/maps/leaflet-map.js" />
         <option value="$PROJECT_DIR$/json/Query1_Results.json" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/json/Query4_Results.json" />
         <option value="$PROJECT_DIR$/js/query4.js" />
         <option value="$PROJECT_DIR$/js/leaflet-map.js" />
         <option value="$PROJECT_DIR$/js/query8.js" />
         <option value="$PROJECT_DIR$/index.html" />
+=======
+        <option value="$PROJECT_DIR$/map2.js" />
+        <option value="$PROJECT_DIR$/js/map2.js" />
+        <option value="$PROJECT_DIR$/js/leaflet-map.js" />
+        <option value="$PROJECT_DIR$/json/bizCrimes.json" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/styles.css" />
+        <option value="$PROJECT_DIR$/js/mapTwo.js" />
+>>>>>>> Query10 implemented visualization
       </list>
     </option>
   </component>
@@ -132,18 +208,27 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+<<<<<<< HEAD
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="742" />
     <option name="height" value="900" />
+=======
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="955" />
+>>>>>>> Query10 implemented visualization
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,7 +250,10 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+>>>>>>> Query10 implemented visualization
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -180,6 +268,7 @@
       <recent name="$PROJECT_DIR$/js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/json" />
     </key>
   </component>
@@ -208,17 +297,31 @@
       <workItem from="1524494035975" duration="8099000" />
       <workItem from="1524522995055" duration="4860000" />
       <workItem from="1524541597187" duration="6890000" />
+<<<<<<< HEAD
       <workItem from="1524700267234" duration="127000" />
       <workItem from="1524700869820" duration="1542000" />
       <workItem from="1524703010933" duration="19673000" />
+=======
+      <workItem from="1524606310406" duration="7595000" />
+      <workItem from="1524689826892" duration="10482000" />
+      <workItem from="1524749238468" duration="5000" />
+      <workItem from="1524766555497" duration="7669000" />
+>>>>>>> Query10 implemented visualization
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="41191000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+=======
+    <option name="totallyTimeSpent" value="45600000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+>>>>>>> Query10 implemented visualization
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14583333" />
@@ -247,11 +350,258 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+<<<<<<< HEAD
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+=======
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/mapTwo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="84" lean-forward="false" selection-start-line="27" selection-start-column="84" selection-end-line="27" selection-end-column="84" />
+          <folding>
+            <element signature="n#!!block;n#getLiqBiz#0" expanded="false" />
+            <marker date="1524798519724" expanded="true" signature="215:221" ph="©" />
+            <marker date="1524798519724" expanded="true" signature="289:295" ph="©" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/Query1_Results.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1912" lean-forward="false" selection-start-line="0" selection-start-column="1912" selection-end-line="0" selection-end-column="1912" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/bizCrimes.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="78" lean-forward="false" selection-start-line="17" selection-start-column="78" selection-end-line="17" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/censusTracts.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="172" lean-forward="false" selection-start-line="3" selection-start-column="172" selection-end-line="3" selection-end-column="181" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/q1Data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="194" lean-forward="false" selection-start-line="0" selection-start-column="194" selection-end-line="0" selection-end-column="194" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="17" lean-forward="false" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/leaflet-map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="20" lean-forward="false" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+          <folding>
+            <marker date="1524711140004" expanded="true" signature="249:255" ph="©" />
+            <marker date="1524711140004" expanded="true" signature="323:329" ph="©" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/mapTwo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="84" lean-forward="false" selection-start-line="27" selection-start-column="84" selection-end-line="27" selection-end-column="84" />
+          <folding>
+            <element signature="n#!!block;n#getLiqBiz#0" expanded="false" />
+            <marker date="1524798519724" expanded="true" signature="215:221" ph="©" />
+            <marker date="1524798519724" expanded="true" signature="289:295" ph="©" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/Query1_Results.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1912" lean-forward="false" selection-start-line="0" selection-start-column="1912" selection-end-line="0" selection-end-column="1912" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/bizCrimes.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="78" lean-forward="false" selection-start-line="17" selection-start-column="78" selection-end-line="17" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/censusTracts.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="172" lean-forward="false" selection-start-line="3" selection-start-column="172" selection-end-line="3" selection-end-column="181" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/q1Data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="194" lean-forward="false" selection-start-line="0" selection-start-column="194" selection-end-line="0" selection-end-column="194" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="17" lean-forward="false" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/leaflet-map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="20" lean-forward="false" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+          <folding>
+            <marker date="1524711140004" expanded="true" signature="249:255" ph="©" />
+            <marker date="1524711140004" expanded="true" signature="323:329" ph="©" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/bizCrimes.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="78" lean-forward="false" selection-start-line="17" selection-start-column="78" selection-end-line="17" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/censusTracts.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="172" lean-forward="true" selection-start-line="3" selection-start-column="172" selection-end-line="3" selection-end-column="181" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/leaflet-map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="23" />
+          <folding>
+            <marker date="1524711140004" expanded="true" signature="249:255" ph="©" />
+            <marker date="1524711140004" expanded="true" signature="323:329" ph="©" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/q1Data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="240" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="240" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="12" lean-forward="false" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/mapTwo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="9" lean-forward="true" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!block;n#getLiqBiz#0" expanded="false" />
+            <marker date="1524798519724" expanded="true" signature="215:221" ph="©" />
+            <marker date="1524798519724" expanded="true" signature="289:295" ph="©" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/leaflet-map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="77" column="16" lean-forward="true" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
+          <folding>
+            <marker date="1524711140004" expanded="true" signature="249:255" ph="©" />
+            <marker date="1524711140004" expanded="true" signature="323:329" ph="©" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding />
+>>>>>>> Query10 implemented visualization
         </state>
       </provider>
     </entry>
@@ -358,8 +708,13 @@
         <state relative-caret-position="630">
           <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
           <folding>
+<<<<<<< HEAD
             <element signature="e#0#6#0" expanded="true" />
             <element signature="e#74#80#1" expanded="true" />
+=======
+            <marker date="1524711140004" expanded="true" signature="249:255" ph="©" />
+            <marker date="1524711140004" expanded="true" signature="323:329" ph="©" />
+>>>>>>> Query10 implemented visualization
           </folding>
         </state>
       </provider>
@@ -378,13 +733,19 @@
         <state relative-caret-position="420">
           <caret line="28" column="17" selection-start-line="27" selection-end-line="28" selection-end-column="17" />
           <folding>
+<<<<<<< HEAD
             <element signature="e#0#6#0" expanded="true" />
             <element signature="e#74#80#1" expanded="true" />
+=======
+            <marker date="1524711140004" expanded="true" signature="249:255" ph="©" />
+            <marker date="1524711140004" expanded="true" signature="323:329" ph="©" />
+>>>>>>> Query10 implemented visualization
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/json/markers.json" />
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/json/q1Data.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -405,18 +766,68 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+=======
+    <entry file="file://$PROJECT_DIR$/js/mapTwo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#getLiqBiz#0" expanded="false" />
+            <marker date="1524798519724" expanded="true" signature="215:221" ph="©" />
+            <marker date="1524798519724" expanded="true" signature="289:295" ph="©" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/bizCrimes.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1430" lean-forward="false" selection-start-line="0" selection-start-column="1430" selection-end-line="0" selection-end-column="1430" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/Query1_Results.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="0" column="1912" lean-forward="false" selection-start-line="0" selection-start-column="1912" selection-end-line="0" selection-end-column="1912" />
+          <folding />
+>>>>>>> Query10 implemented visualization
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/json/Query8_Results.json">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="30">
           <caret column="337" selection-start-column="323" selection-end-column="337" />
+=======
+        <state relative-caret-position="15">
+          <caret line="0" column="194" lean-forward="false" selection-start-line="0" selection-start-column="194" selection-end-line="0" selection-end-column="194" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/censusTracts.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="3" column="172" lean-forward="false" selection-start-line="3" selection-start-column="172" selection-end-line="3" selection-end-column="181" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/dict.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+>>>>>>> Query10 implemented visualization
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="390">
           <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
         </state>
@@ -426,16 +837,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1557">
           <caret line="92" column="30" lean-forward="true" selection-start-line="92" selection-start-column="30" selection-end-line="92" selection-end-column="30" />
+=======
+        <state relative-caret-position="621">
+          <caret line="55" column="21" lean-forward="false" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="55" lean-forward="false" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+          <folding />
+>>>>>>> Query10 implemented visualization
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/mapTwo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="134" column="28" lean-forward="false" selection-start-line="134" selection-start-column="28" selection-end-line="134" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!block;n#getLiqBiz#0" expanded="false" />
+            <marker date="1524798519724" expanded="true" signature="215:221" ph="©" />
+            <marker date="1524798519724" expanded="true" signature="289:295" ph="©" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/leaflet-map.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="591">
           <caret line="113" column="18" lean-forward="true" selection-start-line="113" selection-start-column="18" selection-end-line="113" selection-end-column="18" />
           <folding>
             <element signature="e#0#6#0" expanded="true" />
             <element signature="e#74#80#1" expanded="true" />
+=======
+        <state relative-caret-position="1125">
+          <caret line="75" column="82" lean-forward="false" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="82" />
+          <folding>
+            <marker date="1524711140004" expanded="true" signature="249:255" ph="©" />
+            <marker date="1524711140004" expanded="true" signature="323:329" ph="©" />
+>>>>>>> Query10 implemented visualization
           </folding>
         </state>
       </provider>
