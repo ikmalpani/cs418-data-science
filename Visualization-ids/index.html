@@ -19,10 +19,19 @@
 
     <h1 id="mainTitle">75&degF with a Chance of Snow</h1>
     <h3 id="subtitle">Data Science Project Visualizations</h3>
+    <h4 id="footer">Team Snowflakes</h4>
+    <p id="members">Yashika Goyal | Keshav | Jaspreet Kaur Sohal | Santhosh</p>
 
     <hr>
 
+    <div class="links">
+        <a href="restaurants.html">Restaurants Visualization</a>
+    </div>
+
+    <hr>
+    <h5 class="center">Crime Distribution</h5>
     <div id="wrapper">
+
         <div id="map"></div>
         <div id="chart1">
             <canvas id="q1Chart" width="100"></canvas>
@@ -33,29 +42,29 @@
         </div>
     </div>
 
-    <select id ='Year'>
-        <option value="SelectYear">Select Year</option>
-        <option value="2010">2010</option>
-        <option value="2011">2011</option>
-        <option value="2012">2012</option>
-        <option value="2013">2013</option>
-        <option value="2014">2014</option>
-        <option value="2015">2015</option>
-        <option value="2016">2016</option>
-        <option value="2017">2017</option>
+    <h4 class="center">Crime by Time</h4>
+    <div style="display: flex; justify-content: center;" class="imgContainer">
+        <img src="images/topCrimesByYear.png" height="482" width="811">
+        <img src="images/topCrimesTrend.png" height="468" width="700">
+    </div>
 
-    </select>
+    <h4 class="center">Crime by Temperature and ZipCodes</h4>
+    <div style="display: flex; justify-content: center;" class="imgContainer">
+        <img src="images/crimeWeather.png" height="311" width="800">
+        <img src="images/crime_zipcode.png" height="302" width="800">
+    </div>
 
-    <canvas id="q4Chart" width="100"></canvas>
-    <div>
-        <canvas id="q8Chart" width="100"></canvas>
+    <h4 class="center">Crime occurrence by day of the week and community</h4>
+    <div style="display: flex; justify-content: center;" class="imgContainer">
+        <img src="images/crimeDayOfWeek.png" height="475" width="660">
+        <img src="images/crime-community.png" height="331" width="547">
     </div>
 
 
-    <hr>
+    <!--<hr>-->
 
-    <h4 id="footer">Team Snowflakes</h4>
-    <p id="members">Yashika | Keshav | Jaspreet Kaur Sohal | Santhosh</p>
+    <!--<h4 id="footer">Team Snowflakes</h4>-->
+    <!--<p id="members">Yashika Goyal | Keshav | Jaspreet Kaur Sohal | Santhosh</p>-->
 
     <script type='text/javascript' src='js/leaflet-map.js'></script>
     <script type='text/javascript' src='js/query8.js'></script>

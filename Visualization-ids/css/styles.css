@@ -12,6 +12,7 @@
 
 #subtitle{
     margin-top: 0;
+    /*border-bottom: 2px solid #0a0a0a;*/
 }
 
 #footer{
@@ -24,25 +25,47 @@
 }
 #wrapper{
     width:100vw;
-    height: 100vh;
+    /*height: 200vh;*/
+    margin-bottom: 100px;
     display: grid;
     grid-gap: 20px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
     grid-template-areas: "q1Map q1Map q1Chart q1Chart"
                         "q1Map q1Map q1Chart q1Chart"
                         "MapTwo MapTwo q10Chart q10Chart"
                         "MapTwo MapTwo q10Chart q10Chart";
+                        /*"q4Chart q4Chart q8Chart q8Chart"*/
+                        /*"q4Chart q4Chart q8Chart q8Chart";*/
+}
+
+#wrapper2{
+    padding-right: 100px;
+    width: 100vw;
+    height: 180vh;
+    /*margin-bottom: 100px;*/
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.4fr 0.25fr 0.2fr;
+    /*grid-template-rows: 0.5fr 0.5fr 0.5fr;*/
+    grid-template-areas:  "q4Chart q4Chart q4Chart q8Chart q8Chart q8Chart"
+                            /*"q4Chart q4Chart q4Chart q8Chart q8Chart q8Chart"*/
+                            "myChart2 myChart2 myChart1 myChart1 myChart myChart"
+                            /*"myChart2 myChart2 myChart1 myChart1 myChart myChart"*/
+                    /*"myChart3 myChart3 myChart4 myChart4 myChart5 myChart5"*/
+                    "myChart3 myChart3 myChart4 myChart4 myChart5 myChart5";
 }
 
 #map {
     grid-area: q1Map;
-    /*height: 800px;*/
+    height: 50vh;
     /*width: 700px;*/
 }
 
 #chart1{
     grid-area: q1Chart;
+    height: 40vh;
     position: relative;
 }
 
@@ -64,10 +87,128 @@
     height: 80vh;
 }
 
+#chart3{
+    margin-top: 50px;
+    grid-area: q4Chart;
+    position: relative;
+}
+
+#q4Chart{
+    position: absolute;
+    width: 100vw;
+    height: 80vh;
+}
+
+#chart4{
+    margin-top: 50px;
+    grid-area: q8Chart;
+    position: relative;
+}
+
+#q8Chart{
+    position: absolute;
+    width: 100vw;
+    height: 80vh;
+}
+
+#chart5{
+    /*margin-top: 30px;*/
+    grid-area: myChart2;
+    position: relative;
+}
+
+#myChart2{
+    position: absolute;
+    width: 100vw;
+    /*height: 50vh;*/
+}
+
+#chart6{
+    /*margin-top: 30px;*/
+    grid-area: myChart1;
+    position: relative;
+}
+
+#myChart1{
+    position: absolute;
+    width: 100vw;
+    /*height: 50vh;*/
+}
+
+#chart7{
+    /*margin-top: 30px;*/
+    grid-area: myChart;
+    position: relative;
+}
+
+#myChart{
+    position: absolute;
+    width: 100vw;
+    /*height: 50vh;*/
+}
+
+#chart8{
+    /*margin-top: 30px;*/
+    grid-area: myChart3;
+    position: relative;
+}
+
+#myChart3{
+    position: absolute;
+    width: 100vw;
+    /*height: 50vh;*/
+}
+
+#chart9{
+    /*margin-top: 30px;*/
+    grid-area: myChart4;
+    position: relative;
+}
+
+#myChart4{
+    position: absolute;
+    width: 100vw;
+    /*height: 50vh;*/
+}
+
+#chart10{
+    /*margin-top: 30px;*/
+    grid-area: myChart5;
+    position: relative;
+}
+
+#myChart5{
+    position: absolute;
+    width: 100vw;
+    /*height: 50vh;*/
+}
+
+
+
 #mapTwo{
     grid-area: MapTwo;
     margin-top: 50px;
     /*margin-top: 50px;*/
     /*width: 60vw;*/
     /*height: 500px;*/
+    height: 50vh;
+}
+
+.links{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #cc5500;
+}
+
+.imgContainer{
+    margin-bottom: 60px;
+}
+
+.center{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }

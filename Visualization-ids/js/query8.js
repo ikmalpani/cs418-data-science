@@ -20,10 +20,45 @@ $("#Year").on("change", function () {
 });
 
 var q8Chart;
-var ctx = document.getElementById("q8Chart").getContext("2d");
+var ctx8 = document.getElementById("q8Chart").getContext("2d");
 
-q8Chart = new Chart(ctx, {
-   type: "bar"
+var data2010 = [];
+data2010 = q8.filter(q => q.YearOfInspection == 2010);
+console.log(data2010);
+
+var labels2010=[], years2010=[];
+data2010.forEach(function(d){
+    labels2010.push(d['RestaurantName']);
+    years2010.push(parseFloat(d['AliveForXyears']));
+    // console.log(years)
+
+});
+
+q8Chart = new Chart(ctx8, {
+   type: "bar",
+    data: {
+        labels : labels2010,
+        datasets : [{
+            label: "Viability of Business",
+            backgroundColor: '#ff6766',
+            data: years2010}],
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                scaleLabel: {
+                    display: true,
+                    labelString: 'Years'
+                }
+            }],
+            xAxes: [{
+                scaleLabel: {
+                    display: true,
+                    labelString: 'Restaurant Name'
+                }
+            }]
+        }
+    }
 });
 
 function drawQ8Chart(q8Data){
@@ -31,7 +66,7 @@ function drawQ8Chart(q8Data){
     dataByYear.forEach(function(d){
         labels.push(d['RestaurantName']);
         years.push(parseFloat(d['AliveForXyears']));
-        console.log(years)
+        // console.log(years)
 
     });
 
@@ -39,7 +74,7 @@ function drawQ8Chart(q8Data){
         q8Chart.destroy();
     }
 
-    q8Chart = new Chart(ctx, {
+    q8Chart = new Chart(ctx8, {
        type: 'bar',
        data: {
            labels : labels,

@@ -7,9 +7,9 @@ var result = {
 
 
 
-var ctx = document.getElementById("q4Chart").getContext("2d");
+var ctx4 = document.getElementById("q4Chart").getContext("2d");
 
-final_chart = new Chart(ctx, {
+final_chart = new Chart(ctx4, {
     type: 'bar', // bar, horizontalBar, pie, line, doughnut, radar, polarArea
     data: {
         labels: ['0-1','1-2','2-3', '3-4', '4-5'],
@@ -48,7 +48,7 @@ final_chart = new Chart(ctx, {
         title:{
             display:true,
             text:'Relationship Between Rating and Food Inspection Result',
-            fontSize: 25,
+            fontSize: 20,
         },
         legend:{
             display:true,
