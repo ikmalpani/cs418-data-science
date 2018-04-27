@@ -43,7 +43,7 @@ var lat,lng;
 function getLatitudeLongitude(){
     lat = this.getLatLng().lat;
     lng = this.getLatLng().lng;
-
+    // console.log(lat, lng);
     drawQ1Chart();
 }
 
@@ -68,13 +68,30 @@ var q1Data = $.ajax({
    dataType: 'json'
 }).responseJSON;
 
+defaultData = q1Data.filter(q => q.Latitude == 41.88802499);
+// console.log(defaultData);
+
+var defaultlabels2 = [], defaultData2 = [], defaultTitle = '', defaultBType = '';
+defaultData.forEach(function(d){
+  defaultlabels2.push(d['Crime Type']);
+  defaultData2.push(d['#Crimes']);
+  defaultTitle = d['Business Name'];
+  defaultBType = d['Business Type'];
+});
+
+
 var newChart;
 var ctx = document.getElementById("q1Chart").getContext("2d");
 
 newChart = new Chart(ctx, {
     type: "bar",
     data: {
-        datasets: [{label: 'Click data points on map to display crime distribution'}]
+      labels: defaultlabels2,
+      datasets: [{
+          label: 'Crime distribution within 3 blocks of ' + defaultTitle,
+          backgroundColor: getColor(defaultBType),
+          data: defaultData2
+      }]
     }
 });
 
@@ -130,4 +147,3 @@ function drawQ1Chart(){
         }
     });
 }
-

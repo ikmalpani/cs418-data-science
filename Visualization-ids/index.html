@@ -17,6 +17,9 @@
 
 <body>
 
+    <div class="home">
+      <a href="https://cs418datascience.wixsite.com/mysite"><img src="images/house-outline-black.png" alt="" height="32" width="32"></a>
+    </div>
     <h1 id="mainTitle">75&degF with a Chance of Snow</h1>
     <h3 id="subtitle">Data Science Project Visualizations</h3>
     <h4 id="footer">Team Snowflakes</h4>
@@ -32,15 +35,25 @@
     <h5 class="center">Crime Distribution</h5>
     <div id="wrapper">
 
-        <div id="map"></div>
+        <div id="map">
+          <div class="legend">
+            <img src="images/legendMap.png" height="156" width="150">
+          </div>
+        </div>
         <div id="chart1">
             <canvas id="q1Chart" width="100"></canvas>
         </div>
-        <div id="mapTwo"></div>
+        <div id="mapTwo">
+          <div class="legend">
+            <img src="images/legendMapTwo.png" height="187" width="150">
+          </div>
+        </div>
         <div id="chart2">
             <canvas id="q10Chart" width="100"></canvas>
         </div>
     </div>
+
+
 
     <h4 class="center">Crime by Time</h4>
     <div style="display: flex; justify-content: center;" class="imgContainer">
@@ -67,8 +80,8 @@
     <!--<p id="members">Yashika Goyal | Keshav | Jaspreet Kaur Sohal | Santhosh</p>-->
 
     <script type='text/javascript' src='js/leaflet-map.js'></script>
-    <script type='text/javascript' src='js/query8.js'></script>
-    <script type='text/javascript' src='js/query4.js'></script>
+    <!-- <script type='text/javascript' src='js/query8.js'></script> -->
+    <!-- <script type='text/javascript' src='js/query4.js'></script> -->
     <script type='text/javascript' src='js/mapTwo.js'></script>
 
 </body>

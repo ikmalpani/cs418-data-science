@@ -1,7 +1,7 @@
 var map = L.map( 'mapTwo', {
     center: [41.87451215, -87.63986471],
     minZoom: 2,
-    zoom: 14
+    zoom: 13
 });
 
 L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png', {
@@ -77,19 +77,45 @@ var q10Data = $.ajax({
     dataType: 'json'
 }).responseJSON;
 
+defaultData3 = q10Data.filter(q => q['Census Tract'] == 839100);
+console.log(defaultData3);
+
+var defaultlabels3 = ['May','June','July','August'], defaultData3 = [73.02158100000001, 75.0039949999999, 73.40982199999999,  68.2718180000000],
+defaultRobberyType =  ['ARMED: HANDGUN','STRONGARM - NO WEAPON', 'AGGRAVATED','STRONGARM - NO WEAPON'];
+// defaultData3.forEach(function(d){
+//   defaultlabels3.push(d['month']);
+//   defaultData3.push(d['Avg Temp']);
+//   defaultRobberyType = d['Robbery Type'];
+// });
+
+
 var query10Chart;
 var ctx2 = document.getElementById("q10Chart").getContext("2d");
 
 query10Chart = new Chart(ctx2, {
     type: "bar",
     data: {
-        datasets: [{label: 'Click census tracts on map to display probability of robbery types'}]
+      labels: defaultlabels3,
+      datasets: [{
+          label: 'Probability of Robbery Types for Summer 2018 | Census Tract 839100',
+          backgroundColor: getBlockColor(839100),
+          data: defaultData3
+      }]
+    },
+    options: {
+      tooltips: {
+          callbacks: {
+              label: function(tooltipItem) {
+                  return  (tooltipItem.yLabel).toFixed(2) + "  |  " + defaultRobberyType[tooltipItem.index];
+              }
+          }
+      }
     }
 });
 
 function q10Chart(){
     var tract = this.feature.properties.tractce10;
-    console.log(tract);
+    // console.log(tract);
     var labels = [], data = [], robberyType = [];
     q10Data.forEach(function(d){
        if(tract == d['Census Tract']){
@@ -164,4 +190,3 @@ $.getJSON('json/censusTracts.geojson',function(tracts){
         }
     }).addTo(map);
 });
-

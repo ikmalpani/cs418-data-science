@@ -2,6 +2,12 @@
     box-sizing: border-box;
 }
 
+.home{
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
 #mainTitle, #subtitle{
     text-align: center;
 }
@@ -211,4 +217,11 @@
     font-size: 30px;
     margin-top: 0;
     margin-bottom: 10px;
+}
+
+.legend img{
+  z-index: 1000;
+  position: relative;
+  top: 0px;
+  right: -650px;
 }
