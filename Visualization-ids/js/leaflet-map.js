@@ -24,6 +24,7 @@ var markers = $.ajax({
     dataType: 'json'
 }).responseJSON;
 
+
 function getColor(btype){
     switch (btype) {
     case 'restaurant':
