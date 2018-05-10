@@ -300,6 +300,7 @@
 <<<<<<< HEAD
       <workItem from="1524700267234" duration="127000" />
       <workItem from="1524700869820" duration="1542000" />
+<<<<<<< Updated upstream
       <workItem from="1524703010933" duration="19673000" />
 =======
       <workItem from="1524606310406" duration="7595000" />
@@ -307,10 +308,14 @@
       <workItem from="1524749238468" duration="5000" />
       <workItem from="1524766555497" duration="7669000" />
 >>>>>>> Query10 implemented visualization
+=======
+      <workItem from="1524703010933" duration="20173000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="41191000" />
   </component>
@@ -323,6 +328,12 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
 >>>>>>> Query10 implemented visualization
     <editor active="true" />
+=======
+    <option name="totallyTimeSpent" value="41691000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+>>>>>>> Stashed changes
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14583333" />
       <window_info anchor="bottom" id="TODO" order="6" />
